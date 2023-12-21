@@ -1,0 +1,65 @@
+UNIX COMMANDS
+-------------
+    1  pwd
+    2  ls
+    3  ls -a
+    4  mkdir gitbash
+    6  cd gitbash
+    8  cd .
+    9  cd
+   13  touch file.txt
+   15  nano file.txt
+   17  cd GitBash
+   19  touch main.java
+   21  touch data.csv data.xls
+   23  nano file.txt
+   26  history
+   27  mkdir demo
+   28  cd demo
+   32  cd gitbash
+   34  cd ..
+   38  mv file.txt demo/
+   43  mv data.csv demo
+   44  cd gitbash
+   50  ls
+   51  rm main.java
+   54  rm demo
+   55  rm -demo
+   56  rm -r demo
+   60  history
+   61  touch data.csv
+   63  cat data.csv
+   64  head data.csv
+   65  tail data.csv
+   67  echo hello world
+   70  cat data.xlsx
+   72  history
+   73  cat data.csv | grep Lokesh
+   75  rm data.xls
+   76  rm data.xlsx
+   78  cat data.csv
+   79  cat data.csv | grep lok
+   80  head data.csv
+   81  history
+   83  cd DemoProject
+   84  mkdir DemoProject
+   85  cd DemoProject
+   86  touch Hello.java
+
+
+
+GIT COMMANDS
+------------
+   88  git init
+   89  git status
+   90  git remote add origin https://github.com/Lokeshwar-PG/GitHubDemo.git
+   93  git init
+   94  git status
+   95  git add Hello.java
+   97  git commit -m "first commit"
+  101  git config --global user.email "pglokeshwarmca@gmail.com"
+  102  git config --global user.name "Lokeshwar-PG"
+  105  git push
+  106  git push --set-upstream origin main
+  110  javac Hello.java
+  111  java Hello
