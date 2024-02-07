@@ -25,7 +25,7 @@ UNIX COMMANDS
    51  rm main.java
    54  rm demo
    55  rm -demo
-   56  rm -r demo
+   56  rm -r demo //this only work for folders
    60  history
    61  touch data.csv
    63  cat data.csv
@@ -63,3 +63,6 @@ GIT COMMANDS
   106  git push --set-upstream origin main
   110  javac Hello.java
   111  java Hello
+
+  git branch -m <old_branch_name> <new_branch_name>\
+  git merge Day-6
